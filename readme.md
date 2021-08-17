@@ -59,7 +59,7 @@ Write your implementation in the file `src/simulated_annealing`.
   length are always rejected. Thus, only swaps that will decrease the length are allowed.
 * Do some statistical sampling over 25 random configuration for N=3, 5, 10, 20, 50, 100 cities. Compare the random
   solution with the greedy algorithm and the "simulated annealing" solution.
-* Now implement the cooling of the system. Start with `T0 = 1`. Decrease the temperature with `T1 = T0 × (0.999)^(1/N)`.
+* Now implement the cooling of the system. Start with `T0 = 1`. Decrease the temperature with `T1 = T0 × (0.9999)^(1/N)`.
 * For one run with 100 cities, print a file which contains T and the current path length for every 1000s Monte Carlo
   step.
 * Compare the average path length produced by the simulated annealing solution with the greedy solution for 25 random
