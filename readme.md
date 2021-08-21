@@ -30,9 +30,9 @@ Details:
 The Greedy algorithm discussed previously results in reasonably good solutions. However, it will always end up in a
 local minimum, which is most likely not the global minimum of the system.
 
-Simulated annealing is based on a modified Monte Carlo algorithm.It uses an idea from materials science: An alloy is
+Simulated annealing is based on a modified Monte Carlo algorithm. It uses an idea from materials science: An alloy is
 cooled down slowly from a high temperature, and - during the cooling process - can heal possible defects. At the
-beginning of the algorithm, the high temperature will allow for big changes in the system. I later stages, only
+beginning of the algorithm, the high temperature will allow for big changes in the system. In later stages, only
 increasingly favourable changes are accepted.
 
 Every Monte Carlo step consists of the following operations:
